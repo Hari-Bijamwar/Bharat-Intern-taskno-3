@@ -1,0 +1,257 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Poppins&display=swap');
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Poppins:wght@200;300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(./assets/netflixbackground.jpg);
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity:0.7 ;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.logo{
+    /* background-color: red; */
+    height: 8vh;
+    width: 80vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+.netflixLogo{
+    height: 6vh;
+    
+}
+.hero-section-upper
+{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-header-text{
+    color: white; 
+}
+.new-header{
+    font-size: 50px;
+    font-weight: 900;
+    /* margin-bottom: 15px; */
+    font-family:Martel Sans ;
+}
+.new-para{
+    font-size:25px ;
+    margin: 10px;
+    font-family: 'Poppins'
+    
+}
+.email-section{
+    width: 30vw;
+    height: 8vh;
+    /* text-align: center; */
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(155, 147, 147);
+    color: white;
+    opacity:0.5 ;
+    background-color: black;
+    margin: 20px;
+    border-radius: 4px;
+
+}
+::placeholder{
+    color: white;
+    position: relative;
+    z-index: 10;
+    
+}
+.get-started-btn{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    width: 15vw;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: 20px;
+}
+.sign-in-btn{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    width: 80px;
+    font-weight: 400;
+    border:1px solid black ;
+}
+.seperation{
+    height: 9px;
+    background-color: rgb(61, 59, 59);
+}
+.second-section{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.tv-img{
+    position: relative;
+    top: 150px;
+    z-index: 10;
+}
+.tv-vdo{
+    position: relative;
+    bottom: 240px;
+    left: 80px;
+    
+}
+ /* .left-section-second{
+    
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    
+}
+.right-section-second{
+    width: 50vw; 
+
+}  */
+.tv-para{
+    font-size: 25px;
+    color: white;
+}
+.third-section{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-section
+{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-section
+{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.device-img{
+    position: relative;
+    top: 200px;
+    z-index: 10;
+}
+.device-video{
+position: relative;
+bottom: 245px;
+left: 100px;
+}
+.faq{
+    width: 100vw;
+   
+}
+.sixth-section-upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(46, 46, 46);
+    height: 85px;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 10px;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+.sixth-section-lower{
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-upper
+{
+    color: rgb(190, 187, 187);
+    margin: 50px;
+    margin-left: 130px;
+}
+.tel-no{
+    text-decoration: underline;
+}
+.footer-middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-middle-section-anchor{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.footer-middle-section-anchor a{
+    color: rgb(190, 187, 187);
+}
+.footer-para{
+color:rgb(190, 187, 187);
+}
+.footer-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+.onclickbtn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    width: 90px;
+    border-radius: 4px;
+}
